@@ -1,0 +1,18 @@
+{
+  "name": "react-gantt-demo",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "frappe-gantt": "^0.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "xlsx": "^0.18.0"
+  },
+  "scripts": {
+    "start": "parcel index.html --port 1234",
+    "build": "parcel build index.html"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
+}
